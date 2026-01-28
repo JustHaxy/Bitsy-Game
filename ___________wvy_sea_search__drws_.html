@@ -6,20 +6,10 @@
 
 <meta charset="UTF-8">
 
-<title>"""
-          {wvy}Sea Search {drws "A"}{/wvy}
-
-You're Scotty, a clumsy sailor looking for fish, again in the open sea. You encountered a horrible storm that demolished your ship and spread your valuable diving items across the ocean floor... Now it's up to you to find everything you lost in this perplexing deep sea,,, again.
-
-"""</title>
+<title>          {wvy}Sea Search {drws "A"}{/wvy}</title>
 
 <script type="text/bitsyGameData" id="exportedGameData">
-"""
           {wvy}Sea Search {drws "A"}{/wvy}
-
-You're Scotty, a clumsy sailor looking for fish, again in the open sea. You encountered a horrible storm that demolished your ship and spread your valuable diving items across the ocean floor... Now it's up to you to find everything you lost in this perplexing deep sea,,, again.
-
-"""
 
 # BITSY VERSION 8.14
 
@@ -47,24 +37,6 @@ PAL 2
 255,16,0
 NAME BONUS
 
-PAL 3
-0,0,0
-4,235,252
-244,0,255
-NAME BONUS 3
-
-PAL 4
-0,0,0
-247,4,255
-255,254,5
-NAME BONUS 2
-
-PAL 5
-0,0,0
-255,4,12
-255,254,5
-NAME BONUS 4
-
 ROOM 0
 a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
@@ -77,7 +49,7 @@ a,0,0,c,0,a,a,a,0,0,0,0,c,0,0,0
 a,0,0,a,0,a,a,0,0,0,c,a,a,0,0,0
 a,0,c,0,0,0,0,0,c,c,c,a,a,0,0,a
 a,0,a,a,a,a,0,0,a,a,a,a,a,0,0,a
-a,c,a,a,a,a,a,0,0,0,a,a,a,a,0,a
+a,c,a,a,a,a,a,g,0,0,a,a,a,a,0,a
 a,0,0,0,0,0,0,0,0,0,0,a,0,0,0,a
 a,0,0,0,a,a,a,0,0,0,0,0,g,0,a,a
 a,c,c,c,a,a,a,0,0,0,0,0,g,g,0,a
@@ -86,7 +58,6 @@ NAME Sea Floor
 ITM 0 13,13
 ITM 1 2,13
 EXT 15,7 1 0,7
-EXT 4,7 8 0,8
 PAL 0
 TUNE 3
 
@@ -111,7 +82,6 @@ NAME Sea Floor 2
 ITM 3 13,12
 EXT 0,7 0 15,7
 EXT 7,0 2 7,15
-EXT 12,3 6 0,8
 PAL 0
 TUNE 3
 
@@ -136,7 +106,6 @@ NAME Sea Floor 3
 ITM 5 3,1
 EXT 7,15 1 7,0
 EXT 0,6 3 15,8
-EXT 1,2 7 2,0
 PAL 0
 TUNE 3
 
@@ -149,7 +118,7 @@ a,0,0,a,a,a,a,a,a,0,a,a,0,0,0,a
 a,0,0,0,0,0,0,a,0,0,a,a,c,0,0,a
 a,0,c,0,0,0,0,a,0,0,0,a,a,0,0,a
 a,c,c,c,0,a,g,0,0,0,0,a,a,0,0,0
-a,a,a,a,0,a,c,c,0,0,0,a,a,0,0,0
+a,b,a,a,0,a,c,c,0,0,0,a,a,0,0,0
 a,0,a,a,0,0,a,a,c,0,c,a,a,0,0,0
 a,0,a,a,a,0,0,0,a,g,a,0,a,a,a,a
 a,0,a,0,0,0,a,a,0,0,0,0,0,0,0,a
@@ -243,101 +212,6 @@ EXT 1,14 3 1,9
 PAL 2
 TUNE 2
 
-ROOM 6
-a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
-a,0,0,0,0,0,0,a,a,0,0,0,0,0,0,a
-a,0,a,a,0,0,0,0,0,0,0,0,a,a,0,a
-a,0,a,0,0,0,a,0,0,a,0,0,0,a,0,a
-a,0,0,a,0,0,a,a,a,a,0,0,a,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,a,0,a,0,0,a,0,a,0,0,0,a
-a,a,a,0,a,0,a,0,0,a,0,a,0,a,a,a
-0,0,0,0,a,0,a,a,a,a,0,a,0,0,0,0
-a,a,a,0,0,0,0,0,0,0,0,0,0,a,a,a
-a,0,0,0,a,a,0,a,a,0,a,a,0,0,0,a
-a,0,a,0,a,a,0,a,a,0,a,a,0,a,0,a
-a,0,a,0,0,0,0,0,0,0,0,0,0,a,0,a
-a,0,a,a,0,0,a,0,0,a,0,0,a,a,0,a
-a,0,0,0,0,a,a,a,a,a,a,0,0,0,0,a
-a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
-NAME Secret Room 2
-ITM 2 1,1
-ITM 2 14,1
-ITM 2 1,14
-ITM 2 14,14
-ITM 2 7,6
-ITM 2 8,6
-ITM 2 7,3
-ITM 2 8,3
-EXT 0,8 1 12,3
-EXT 15,8 1 11,2
-PAL 4
-TUNE 2
-
-ROOM 7
-a,a,0,a,a,a,a,a,a,a,a,a,a,a,a,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,a,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,a,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,a,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,a,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,a,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,a,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,a,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,a,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,a,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,a,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,a,a
-a,0,0,0,a,a,a,a,a,a,a,0,0,a,a,a
-a,0,0,0,a,a,a,a,a,a,a,0,0,0,0,a
-a,0,0,0,a,a,a,a,a,a,a,0,0,a,a,a
-a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
-NAME Secret Room 3
-ITM 2 4,11
-ITM 2 5,11
-ITM 2 7,11
-ITM 2 8,11
-ITM 2 10,11
-ITM 2 9,11
-ITM 2 6,11
-ITM 2 4,9
-ITM 2 5,9
-ITM 2 6,9
-ITM 2 9,9
-ITM 2 10,9
-ITM 2 8,9
-ITM 2 7,9
-ITM 2 6,7
-ITM 2 7,7
-ITM 2 8,7
-ITM 2 5,7
-ITM 2 9,7
-EXT 2,0 2 1,2
-EXT 14,13 2 2,6
-PAL 3
-TUNE 2
-
-ROOM 8
-a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
-a,0,0,0,0,0,0,0,0,0,a,a,a,0,0,a
-a,0,0,0,0,0,0,0,0,a,a,a,a,a,0,a
-a,0,0,0,0,0,0,0,0,0,a,0,a,0,0,a
-a,0,0,0,0,0,0,0,0,a,0,0,0,a,0,a
-a,0,0,0,0,0,0,0,0,a,0,0,0,a,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
-a,0,0,0,0,0,0,0,0,0,a,a,a,0,0,a
-a,a,0,0,0,0,0,0,0,a,a,a,a,a,0,a
-a,0,a,a,a,0,0,0,0,a,a,0,a,a,a,a
-a,a,a,a,a,0,0,0,a,0,0,a,a,0,0,a
-a,a,0,a,a,a,a,a,a,a,0,a,a,0,a,a
-a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
-NAME Secret Room 4
-ITM 2 13,1
-EXT 0,8 0 4,7
-PAL 5
-
 TIL a
 00111100
 01000110
@@ -363,22 +237,22 @@ NAME Block 2
 WAL true
 
 TIL c
-11001101
-01101001
-01001011
+00000000
 01001010
-01101110
-01111110
-11111111
+01001010
+01010110
+01110010
+00110100
+01010100
 11111111
 >
-11101010
-01101010
-01001010
-01101010
-00101010
-01111110
-11111111
+00000000
+10010101
+11010101
+01010101
+11110010
+01110001
+01010010
 11111111
 NAME coral 1
 WAL true
@@ -427,21 +301,21 @@ NAME Flag
 
 TIL g
 00000000
-10001001
-10010001
-10001001
-10010001
-10001001
-10010001
+01001001
+01010011
+01010010
+10100100
+10010100
+10010010
 11111111
 >
 00000000
+01001001
+01010010
 10001001
 01001010
-10001001
-01001010
-10001001
-01001010
+10010001
+01001001
 11111111
 NAME coral 2
 WAL false
@@ -497,7 +371,7 @@ SPR A
 10111111
 00111110
 00011100
-POS 0 1,1
+POS 0 2,1
 
 SPR a
 00011100
@@ -566,270 +440,6 @@ SPR c
 NAME fish 3
 DLG b
 POS 5 3,8
-BLIP 1
-
-SPR d
-00111100
-01010110
-01011010
-01101110
-00111100
-00101010
-01010100
-01010100
->
-00111100
-01010110
-01011010
-01101110
-00111100
-00101010
-00010101
-00010101
-NAME jellyfish
-DLG d
-POS 0 8,14
-BLIP 1
-
-SPR e
-11110001
-00100011
-01000011
-11101111
-00011111
-00100111
-01111111
-00111111
->
-00000001
-00000011
-00000011
-00001111
-00011111
-00100111
-01111111
-00111111
-NAME shark1
-DLG e
-POS 1 5,13
-BLIP 1
-
-SPR f
-10000000
-10000000
-00000001
-11110011
-11111111
-11111111
-11111110
-11111100
-NAME shark 2
-POS 1 6,13
-
-SPR g
-00011000
-00100100
-00011100
-00011110
-01111110
-00011110
-00011000
-00101000
->
-00011000
-00100101
-00011100
-01011110
-00111110
-00011110
-00011000
-00010100
-NAME diver
-DLG f
-POS 2 14,2
-BLIP 1
-
-SPR h
-00011000
-00111000
-00101000
-01101000
-01111000
-00111000
-00010100
-00101000
->
-00011000
-00111000
-00101000
-01101000
-00111000
-00111000
-00011000
-00010100
-NAME squid
-DLG g
-POS 6 7,7
-BLIP 1
-
-SPR i
-00011000
-00111000
-00101000
-01101000
-01111000
-00111000
-00010100
-00101000
->
-00011000
-00111000
-00101000
-01101000
-00111000
-00111000
-00011000
-00010100
-NAME squid 2
-DLG h
-POS 6 8,7
-BLIP 1
-
-SPR j
-00011000
-00111100
-11011011
-01111110
-00111100
-01111110
-11100111
-11000011
->
-00011000
-00111100
-01011010
-11111111
-00100100
-01111110
-01100110
-01100110
-NAME starfish
-DLG i
-POS 2 9,5
-BLIP 1
-
-SPR k
-01111110
-10100101
-11011011
-10100101
-10000001
-10111101
-10000001
-01111110
->
-01111110
-10000101
-11111011
-10100101
-10000001
-10100101
-10011001
-01111110
-NAME sponge
-DLG j
-POS 7 2,14
-BLIP 1
-
-SPR l
-00111000
-01111100
-11001110
-10110100
-10010111
-10110101
-11001100
-11110001
->
-00111000
-01111100
-11001110
-10010100
-10110111
-10110101
-11001100
-11110001
-NAME octopus 1
-DLG k
-POS 3 8,5
-BLIP 1
-
-SPR m
-00110111
-11101101
-00011011
-11101110
-00011000
-11110011
-00011110
-11111111
->
-00111100
-11101100
-00111010
-11100001
-00011111
-11110110
-00000111
-11111100
-NAME octopus 2
-POS 3 9,5
-
-SPR n
-00100100
-01011010
-01011010
-11111111
-10000001
-11100111
-01111110
-01100110
->
-00000000
-00100100
-01011010
-01011010
-11111111
-10000001
-11111111
-01100110
-NAME frog final
-DLG l
-POS 4 3,2
-BLIP 1
-
-SPR o
-00000000
-00000001
-01110010
-10111111
-11111111
-01110011
-00000001
-00000000
->
-00000000
-00000000
-01110001
-10111111
-11111111
-00110011
-01000001
-00000001
-NAME fish 4
-DLG m
-POS 8 5,10
-BLIP 1
 
 ITM 0
 00010110
@@ -953,7 +563,7 @@ But if you so please, I found some of your stuff down here, the corals are impos
 NAME fish 1
 
 DLG 2
-It's your submarine clippers! They'll do work in chopping those pesky {rbw}thin{/rbw} coral plants in the way!{item "1" {{item "1"} + 1}}
+It's your submarine clippers! They'll do work in chopping those pesky coral plants in the way!{item "1" {{item "1"} + 1}}
 NAME submarine clippers dialog
 
 DLG 5
@@ -964,6 +574,9 @@ DLG 6
 It's your goggles! They're guaranteed to not leak water 99.9% of the time!{item "1" {{item "1"} + 1}}
 NAME goggles dialogue
 
+DLG 7
+ {item "2" 1}
+
 DLG 8
 It's your oxygen tanks! You genuinely need this to survive down here!{item "3" {{item "3"} + 1}}
 NAME oxygen tank dialogue
@@ -973,7 +586,7 @@ It's your bucket! It might come in handy in case you get nauseous... {item "4" {
 NAME bucket dialogue
 
 DLG a
-There's a apparently a secret around here... but you must find a {shk}block{/shk} that looks different than the rest you've seen...
+ There's a apparently a secret around here... but you must find a {shk}block{/shk} that looks different than the rest you've seen...
 NAME fish 2
 
 DLG b
@@ -983,46 +596,6 @@ NAME fish 3
 DLG c
 It's your toolbox! You can't go on an expedition without your handy tools!
 NAME toolbox dialogue
-
-DLG d
-Hey! Are you looking for your stuff down here? I don't think I've seen much here if at all, though I might've seen a secret spot somewhere around this part of the seafloor...
-NAME jellyfish dialogue
-
-DLG e
-Your items? Nah, I'd rather eat you instead. Although, I don't feel like my teeth could even dent your machine... {shk}Maybe another day we could play when I'm not so sleepy...{/shk}
-NAME shark dialogue
-
-DLG f
-Hey Scotty! You're undersea looking for minerals too? No, well I hope you have good luck finding your stuff again! Certainly hope you won't spend longer than you did last time a week ago! {rbw}:^){/rbw}
-NAME diver dialogue
-
-DLG g
-Hey, what are you doing here? Get out and get lost! We're trying to relax here, don't you have better things to do than go around our rock garden?
-NAME squid dialogue 1
-
-DLG h
-Sorry about my partner, he's quite grumpy about people coming in here, I wish he could take walks around the garden here, but he thinks there's ghosts around this spot... but all I see are coins...
-NAME squid dialogue 2
-
-DLG i
-Oh hello there, uh... have you seen my yellow friend? I feel like he's working at a resturant that looks like a trap one of my crustaceous friends was caught in... I haven't seen him since then...
-NAME starfish dialogue
-
-DLG j
-Hiya! Have you seen my friend who's a pink starfish? I told him that I'll be ok searching for some secret jellyfish here, but all I could find here are coins? I don't know but it seems like he's confusing where I'm going sometimes and it worries him...
-NAME sponge dialogue
-
-DLG k
-Oh it's you again. Do you not have anything better to do than search around for stuff that you lost {shk}again{/shk}? *Huff*, If only I had the same carelessness as you do...
-NAME octopus dialogue
-
-DLG l
-Woah dude, how was the deep ocean? Was it as radical as everyone on your team is saying?! Like dude, my mammal physique prevents me from exploring down there for more than an hour so you're pretty {shk}sick{/shk}, I'll say! Also if I may ask, what was one of your friends saying about your lost stuff, are you sure you got everything, man? Cause if so, that would be awesome to the extreme!!
-NAME frog dialog
-
-DLG m
-Oh... hey... Yeah man, I think I ate everything inside here. No worries, it was nothing you could've gotten around to eating like... Some of the best gold coins out there... I need some sleep now...
-NAME fish 4 dialogue
 
 VAR a
 42
@@ -12904,6 +12477,7 @@ CHAR 9835
 011011
 011000
 000000
+</script>
 </script>
 
 </head>

@@ -1,0 +1,21 @@
+﻿Sea Search - Release Notes
+Note: This is often a .txt file or .md file placed in the root of the project itself.
+﻿
+Game Project: Bitsy Game - Sea Search
+Creator: Bryan Hernandez
+Version: 1.1
+Date: 1/27/2026
+
+
+-{New features}-
+* ﻿There are now more interactable characters in the sea from various sealife to another member of your exploration crew﻿.
+* More secret areas are available to find and explore in the world.
+﻿
+-{Fixes}-
+* Corrected some errors in textboxes and specific item placement.
+﻿
+-{Improvements (of existing features)}-
+* Adjusted graphics of passable coral plants to make them easier to identify compared to impassable coral plants.
+
+-{Known Bugs}-
+* Goggles get added into the inventory twice instead of only once upon collection.
